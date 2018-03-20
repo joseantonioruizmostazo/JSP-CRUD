@@ -1,3 +1,3 @@
 # JSP-CRUD
 
-Gestión de clubes de fútbol.
+Gestión de jugadores y sus clubes de la Liga Santander.

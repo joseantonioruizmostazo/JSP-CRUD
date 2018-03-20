@@ -21,4 +21,4 @@ La base de datos está compuesta por las tablas:
 
 ## Página principal (listado de jugadores y equipos)
 
-<img width="520px" src="/capturas/listado jugadores.png">
+<img width="820px" src="/capturas/listado jugadores.png">

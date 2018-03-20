@@ -22,3 +22,35 @@ La base de datos está compuesta por las tablas:
 ## Página principal (listado de jugadores y equipos)
 
 <img width="820px" src="/capturas/listado jugadores.png">
+
+## Añadir jugador
+
+<img width="820px" src="/capturas/añadir jugador.png">
+
+## Jugador añadido correctamente
+
+<img width="820px" src="/capturas/añadido correctamente.png">
+
+## Jugador añadido (error)
+
+Si intentamos añadir un jugador con un código ya existente nos muestra un error.
+
+<img width="820px" src="/capturas/añadido error.png">
+
+## Modificar jugador
+
+<img width="820px" src="/capturas/modificar jugador.png">
+
+## Modificado correctamente
+
+<img width="820px" src="/capturas/modificado correctamente.png">
+
+## Borrar jugador
+
+<img width="820px" src="/capturas/borrar jugador.png">
+
+## Borrado correctamente
+
+<img width="820px" src="/capturas/borrado correctamente.png">
+
+

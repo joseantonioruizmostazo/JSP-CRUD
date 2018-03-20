@@ -15,7 +15,7 @@ La base de datos está compuesta por las tablas:
 
 * Equipo: equipos de la liga BBVA.
 
-<img width="320px" src="/capturas/relacion tablas.jpg">
+<img width="320px" src="/capturas/relacion tablas.png">
 
 
 

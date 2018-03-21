@@ -20,8 +20,8 @@
     <% request.setCharacterEncoding("UTF-8"); %>
     <div class="container">
       <br><br>
-      <div class="panel panel-info">
-        <div class="panel-heading text-center">Modificación de jugador</div>
+      <div class="panel panel-warning">
+        <div class="panel-heading panel text-center">Modificación de jugador</div>
           <form method="get" action="grabaJugadorModificado.jsp">
             <div id="messi"></div>
             <div class="form-group"> 
@@ -66,7 +66,7 @@
             </div>
             <hr>
             &nbsp;&nbsp;<a href="index.jsp" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span>Cancelar</a>
-            <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-ok"></span>Aceptar</button><br><br>
+            <button type="submit" class="btn btn-info"><span class="glyphicon glyphicon-ok"></span>Aceptar</button><br><br>
           </form>
 
       </div>

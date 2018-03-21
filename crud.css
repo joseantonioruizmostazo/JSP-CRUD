@@ -30,3 +30,34 @@ div#ronaldo{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+div#cr{
+  position: absolute;
+  width: 700px;
+	height: 500px;
+  margin-left: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/ronaldo.gif");
+}
+
+div#camiseta{
+  position: absolute;
+  width: 700px;
+	height: 500px;
+  margin-left: 400px;
+  background-image: url("img/camiseta.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo{
+  position: absolute;
+  width: 95px;
+	height: 75px;
+  margin-left: 1037px;
+  margin-top: -42px;
+  background-image: url("img/logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

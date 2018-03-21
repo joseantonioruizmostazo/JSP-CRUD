@@ -20,7 +20,7 @@
   <body id="index">
 		<div class="container">
 			<br><br>			
-      <div class="panel panel-primary">
+      <div class="panel panel-warning">
         <div class="panel-heading text-center"><h2>Jugadores y sus clubes de la Liga BBVA</h2></div>
         <%
           Class.forName("com.mysql.jdbc.Driver");
@@ -31,19 +31,43 @@
          
         %>
 
-        <table class="table table-striped">
+        <table class="table table-striped table table-condensed">
         <form method="get" action="grabaJugador.jsp">
-          <tr><td><input type="text" name="CodJug" size="4"></td>
-              <td><input type="text" name="NomJug" size="20"></td>
+          <tr><td><input type="text" name="CodJug" size="2"></td>
+              <td><input type="text" name="NomJug" size="13"></td>
               <td><input type="text" name="EdaJug" size="2"></td>
-              <td><input type="text" name="PosJug" size="15"></td>
+              <td><input type="text" name="PosJug" size="13"></td>
               <td><input type="text" name="AltJug" size="3"></td>
-              <td><input type="text" name="PesJug" size="3"></td>
-              <td><input type="text" name="PieJug" size="10"></td>
-              <td><input type="text" name="CodEqui" size="2"></td>
-              <td><button type="submit" value="Añadir" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Añadir</button></td><td></td></tr>           
+              <td><input type="text" name="PesJug" size="2"></td>
+              <td><input type="text" name="PieJug" size="8"></td>
+              <td><select name="CodEqui">
+                <option value="0"></option>  
+                <option value="1">1-Real Madrid</option>
+                <option value="2">2-F.C. Barcelona</option>
+                <option value="3">3-Sevilla F.C.</option>
+                <option value="4">4-Valencia C.F.</option>
+                <option value="5">5-Atl. Madrid</option>
+                <option value="6">6-Málaga C.F.</option>
+                <option value="7">7-Alavés C.F.</option>
+                <option value="8">8-Leganés F.C.</option>
+                <option value="9">9-Betis F.C.</option>
+                <option value="10">10-Getafe C.F.</option>
+                <option value="11">11-R.C. Deportivo</option>
+                <option value="12">12-C.D. Celta</option>
+                <option value="13">13-Real Sociedad</option>
+                <option value="14">14-Ath. Bilbao</option>
+                <option value="15">15-R.C.D Español</option>
+                <option value="16">16-Eibar</option>
+                <option value="17">17-U.D Levante</option>
+                <option value="18">18-Girona</option>
+                <option value="19">19-Villarreal</option>
+                <option value="20">20-Las Palmas</option>
+              </select></td>
+              
+              <td><button type="submit" value="Añadir" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Añadir</button></td><td></td></tr>           
+          <td><div id="logo"></div></td>
         </form>
-        <tr><th>Código</th><th>Nombre</th><th>Edad</th><th>Posición</th><th>Altura</th><th>Peso</th><th>Pie dominante</th><th>Codigo Equipo</th><th>Nombre Equipo</th><th>Año fundación</th></tr>
+        <tr><th>Código</th><th>Nombre</th><th>Edad</th><th>Posición</th><th>Altura</th><th>Peso</th><th>Pie dominante</th><th>Código Equipo</th><th>Nombre Equipo</th><th>Año fundación</th></tr>
         
         <%
           while (listado.next()) {
@@ -69,7 +93,7 @@
           <input type="hidden" name="PesJug" value="<%=listado.getString("PesJug") %>">
           <input type="hidden" name="PieJug" value="<%=listado.getString("PieJug") %>">
           <input type="hidden" name="CodEqui" value="<%=listado.getString("CodEqui") %>">
-					<button type="submit"  class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span></button>
+					<button type="submit"  class="btn btn-warning"><span class="glyphicon glyphicon-pencil"></span></button>
 				</form>
 				</td>
 				<td>

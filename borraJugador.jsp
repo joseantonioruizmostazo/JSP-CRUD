@@ -15,7 +15,7 @@
 
     <title>Jugadores y sus clubes de La Liga BBVA - José Antonio Ruiz Mostazo</title>
   </head>
-  <body>
+  <body id="correcto">
     <%
       Class.forName("com.mysql.jdbc.Driver");
       Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3399/clubes","root", "");

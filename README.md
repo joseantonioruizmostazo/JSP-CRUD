@@ -15,6 +15,44 @@ La base de datos está compuesta por las tablas:
 
 * Equipo: equipos de la liga BBVA.
 
-
+<img width="520px" src="/capturas/relacion tablas.png">
 
 ## Página principal (listado de jugadores y equipos)
+
+<img width="820px" src="/capturas/listadojugadores.png">
+
+## Añadir jugador
+
+<img width="820px" src="/capturas/añadirjugador.png">
+
+## Jugador añadido correctamente
+
+<img width="820px" src="/capturas/añadidocorrectamente.png">
+
+## Error al añadir jugador
+
+Si intentamos añadir un jugador con un Código de jugador (CodJug) ya existente, nos muestra el siguiente error.
+
+<img width="820px" src="/capturas/añadidoerror.png">
+
+## Muestra jugador añadido
+
+Podemos comprobar al final de la tabla que el jugador se ha añadido correctamente
+
+<img width="820px" src="/capturas/muestrajugadorañadido.png">
+
+## Modificar jugador
+
+<img width="820px" src="/capturas/modificarjugador.png">
+
+## Jugador modificado correctamente
+
+<img width="820px" src="/capturas/modificadocorrectamente.png">
+
+## Borrar jugador
+
+<img width="820px" src="/capturas/borrarjugador.png">
+
+## Jugador borrado correctamente
+
+<img width="820px" src="/capturas/borradocorrectamente.png">
